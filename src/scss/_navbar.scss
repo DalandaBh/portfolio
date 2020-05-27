@@ -1,0 +1,38 @@
+.navbar {
+    width: 100%;
+    // background-color: rgba(0,0,0,.9);
+    position: fixed !important;
+    z-index: 9999;
+    opacity: 2.1;
+    .navbar-brand{
+        color : $adjini !important;
+        text-transform: uppercase;
+    }
+    .navbar-toggler{  
+        border-color: $adjini !important;
+        .icon{
+            border-color: $adjini !important;
+        }
+        .navbar-toggler-icon{
+            background-image: url( 
+                "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(195, 129, 101)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+        }
+       
+    }
+    .navbar-collapse{
+        justify-content: flex-end;
+    }
+    ul li {
+        list-style: none;
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: all ease 0.5s;
+            color:rgb(195, 129, 101) !important;
+        }
+        a:hover{
+            background-color: rgb(195, 129, 101);
+            color: white !important;
+        }
+    }
+}
